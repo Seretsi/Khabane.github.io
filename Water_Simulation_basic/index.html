@@ -1,0 +1,33 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>CG Project</title>
+        <meta name="description" content="CG Project">
+
+        <script src="JS/perlin2d.js"></script>
+        <script src="COMMON/three.js"></script>
+    </head>
+
+    <body style="background-color:black; color: white">
+        <div style="min-height: 50px">
+            <div style="top3px; float:left;">
+                Wave Size
+                <input type="range" id="waveSizeRange" min = "0" max = ".45" value=".15" step=".05">
+            </div>
+            <div style="top3px; float:left; margin-left:20px;">
+                Wave Density
+                <input type="range" id="waveDensityRange" min = ".05" value=".2" max = ".35" step=".05">
+            </div>
+            <div style="top3px; float:left; margin-left:20px;">
+                Choppiness
+                <input type="range" id="choppinessRange" value=".07" min=".01" max=".2" step = ".01">
+            </div>
+            <div style="top3px; float:left; margin-left:20px;">
+                Wave Speed
+                <input type="range" id="waveSpeedRange" value=".7" min = ".1" max = "1.3" step = ".1">
+            </div>
+        </div>
+        <script src="JS/main.js"></script>
+    </body>
+</html>
